@@ -94,7 +94,7 @@ public class ProjectController {
 
 
 
-    // curly braces means that we need  return values, first we need to bring all task list
+    // curly braces means that we need  return values, first we need to bring all task list( x its eachproject )
     List<ProjectDTO> getCountedListOfProjectDTO(UserDTO manager){
 
         List<ProjectDTO> list = projectService
